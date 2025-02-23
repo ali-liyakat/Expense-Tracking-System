@@ -51,6 +51,20 @@ def fetch_expense_summary(start_date, end_date):
         cursor.execute("SELECT category, SUM(amount) as total FROM expenses WHERE expense_date BETWEEN %s AND %s GROUP By category",(start_date, end_date))
         data = cursor.fetchall()
         return data
+    
+
+def fetch_monthly_expense_summary():
+    logger.info(f"fetch_expense_summary_by_months")
+    with get_db_cursor() as cursor:
+        cursor.execute(
+            '''SELECT month(expense_date) as expense_month, 
+               monthname(expense_date) as month_name,
+               sum(amount) as total FROM expenses
+               GROUP BY expense_month, month_name;
+            '''
+        )
+        data = cursor.fetchall()
+        return data
 
 
 
