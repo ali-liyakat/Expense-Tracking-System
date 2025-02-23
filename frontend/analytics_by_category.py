@@ -7,7 +7,7 @@ import pandas as pd
 API_URL = "http://localhost:8000"
 
 
-def analytics_tab():
+def analytics_category_tab():
     col1, col2 = st.columns(2)
     with col1:
         start_date = st.date_input("Start Date", datetime(2024, 8, 1))
