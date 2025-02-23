@@ -189,3 +189,27 @@
 2025-02-23 14:45:47,034 - db_helper - INFO - fetch_expense_for_date called with 2024-08-01
 2025-02-23 14:45:55,973 - db_helper - INFO - fetch_expense_for_date called with 2024-08-01
 2025-02-23 14:45:58,063 - db_helper - INFO - fetch_expense_summary called with start 2024-08-01 and end 2024-08-05
+2025-02-23 15:43:45,769 - db_helper - INFO - fetch_expense_for_date called with 2024-08-01
+2025-02-23 15:43:48,070 - db_helper - INFO - fetch_expense_summary_by_months
+2025-02-23 15:43:54,312 - db_helper - INFO - fetch_expense_for_date called with 2024-08-01
+2025-02-23 15:43:56,457 - db_helper - INFO - fetch_expense_summary called with start 2024-08-01 and end 2024-08-05
+2025-02-23 15:43:58,560 - db_helper - INFO - fetch_expense_summary_by_months
+2025-02-23 15:47:26,074 - db_helper - INFO - fetch_expense_for_date called with 2024-09-01
+2025-02-23 15:47:28,179 - db_helper - INFO - fetch_expense_summary_by_months
+2025-02-23 15:47:41,869 - db_helper - INFO - fetch_expense_for_date called with 2024-10-01
+2025-02-23 15:47:44,091 - db_helper - INFO - fetch_expense_summary_by_months
+2025-02-23 15:48:38,039 - db_helper - INFO - fetch_expense_for_date called with 2024-10-01
+2025-02-23 15:48:40,137 - db_helper - INFO - delete_expense_for_date called with 2024-10-01
+2025-02-23 15:48:40,203 - db_helper - INFO - insert_expense called with date: 2024-10-01, amount: 200.0, category: Shopping, notes: Bought Grocery
+2025-02-23 15:48:40,266 - db_helper - INFO - insert_expense called with date: 2024-10-01, amount: 150.0, category: Food, notes: Eat samosa chat
+2025-02-23 15:48:40,284 - db_helper - INFO - insert_expense called with date: 2024-10-01, amount: 300.0, category: Entertainment, notes: Visited Park
+2025-02-23 15:48:42,349 - db_helper - INFO - fetch_expense_summary_by_months
+2025-02-23 15:49:21,274 - db_helper - INFO - fetch_expense_for_date called with 2024-10-01
+2025-02-23 15:49:22,949 - db_helper - INFO - fetch_expense_for_date called with 2024-10-01
+2025-02-23 15:49:25,050 - db_helper - INFO - fetch_expense_summary called with start 2024-08-01 and end 2024-10-01
+2025-02-23 15:49:27,126 - db_helper - INFO - fetch_expense_summary_by_months
+2025-02-23 16:00:04,314 - db_helper - INFO - fetch_expense_for_date called with 2024-08-01
+2025-02-23 16:00:06,457 - db_helper - INFO - fetch_expense_summary_by_months
+2025-02-23 16:00:13,760 - db_helper - INFO - fetch_expense_for_date called with 2024-08-01
+2025-02-23 16:00:15,885 - db_helper - INFO - fetch_expense_summary called with start 2024-08-01 and end 2024-08-05
+2025-02-23 16:00:17,995 - db_helper - INFO - fetch_expense_summary_by_months
