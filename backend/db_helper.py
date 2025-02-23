@@ -45,7 +45,6 @@ def insert_expense(expense_date, amount, category, notes):
     with get_db_cursor(commit=True) as cursor:
         cursor.execute("INSERT INTO expenses (expense_date, amount, category, notes) VALUES (%s, %s, %s, %s)", (expense_date, amount, category, notes))
 
-
 def fetch_expense_summary(start_date, end_date):
     logger.info(f"fetch_expense_summary called with start {start_date} and end {end_date}")
     with get_db_cursor()as cursor:
